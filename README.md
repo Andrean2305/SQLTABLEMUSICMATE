@@ -4,6 +4,7 @@ Using SQLAlchemy we can make this table that we integrate with the api. Basicall
 
 The table will be created if new user just login with new id.
 
+#Funct
 @app.post("/login")
 async def login(request: Request, username: str = Body(...), password: str = Body(...), email: str = Body(...)):
     try:
