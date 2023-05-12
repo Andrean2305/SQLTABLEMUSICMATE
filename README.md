@@ -3,6 +3,7 @@
 Using SQLAlchemy we can make this table that we integrate with the api. Basically we can know the user activity now for example if the user idle. And we can connect it to the session. Or just make another firebase collection to store the data
 
 The table will be created if new user just login with new id.
+
 #Function login that have create table
 
 @app.post("/login") async def login(request: Request, username: str = Body(...), password: str = Body(...), email: str = Body(...)): try: # Authenticate user # ...
