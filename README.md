@@ -47,4 +47,5 @@ Note: The table is the same when user login
       
       Why this important? To kick user if they already been idle/in the session for too long. Other use: just cool can see what user do now.
       
-      ![image](https://github.com/Andrean2305/SQLTABLEMUSICMATE/assets/91464375/fc92a6b2-4a6e-4ef8-a580-793652bfddc9)
+![image](https://github.com/Andrean2305/SQLTABLEMUSICMATE/assets/91464375/b3ad1dd0-f325-452b-8ea3-546bb5f29f24)
+
