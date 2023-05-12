@@ -36,4 +36,5 @@ async def login(request: Request, username: str = Body(...), password: str = Bod
     except Exception as e:
         return {"error": str(e)}
 
+
 so as you can see in this function we push first to database for username and email that is login to the session. After that we create the table if not created yet
