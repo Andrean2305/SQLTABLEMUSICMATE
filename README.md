@@ -36,3 +36,15 @@ except Exception as e:
 
 
 so as you can see in this function we push first to database for username and email that is login to the session. After that we create the table if not created yet
+
+We also give post create table that is also stored in mysql database on local user's storage. 
+
+With that information we will use it to push it to our firebase.
+
+Note: The table is the same when user login
+
+      But this table is updated so we can really update what user doing FE.: Idle,Posting,Reading,Scrolling, and also Searching
+      
+      Why this important? To kick user if they already been idle/in the session for too long. Other use: just cool can see what user do now.
+      
+      ![image](https://github.com/Andrean2305/SQLTABLEMUSICMATE/assets/91464375/fc92a6b2-4a6e-4ef8-a580-793652bfddc9)
